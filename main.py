@@ -10,7 +10,7 @@ st.set_page_config(page_title="LangGraph AI Agent", page_icon="🤖")
 if "chat_history" not in st.session_state:
     st.session_state.chat_history = []
 
-st.title("🤖 AI Assistant with Tools")
+st.title("🤖 Zubair's AI Assistant (with Tools)")
 
 user_query = st.text_input("Enter your query:", key="user_input")
 
